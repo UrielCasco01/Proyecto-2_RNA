@@ -32,3 +32,4 @@ config: {}
 2022-11-08 19:00:02,825 INFO    MainThread:12616 [wandb_run.py:_config_callback():1160] config_cb hight 180 None
 2022-11-08 19:00:02,841 INFO    MainThread:12616 [wandb_config.py:__setitem__():148] config set width = 180 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000022ECD2F1CD0>>
 2022-11-08 19:00:02,841 INFO    MainThread:12616 [wandb_run.py:_config_callback():1160] config_cb width 180 None
+2022-11-09 01:19:37,725 WARNING MsgRouterThr:12616 [router.py:message_loop():77] message_loop has been closed

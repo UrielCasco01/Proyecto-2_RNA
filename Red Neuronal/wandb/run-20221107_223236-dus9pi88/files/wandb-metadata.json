@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-11-08T04:32:38.203691",
+    "startedAt": "2022-11-08T04:32:36.981230",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\wwwle\\Documents\\Materias_Universidad\\Redes Neuronales\\Proyecto-2_RNA\\Red Neuronal\\Red neuronal para reconocimiento facial - mod.py",
+    "codePath": "Red Neuronal\\Red neuronal para reconocimiento facial - mod.py",
+    "git": {
+        "remote": "https://github.com/UrielCasco01/Proyecto-2_RNA.git",
+        "commit": "dc6e3dcdb526ff09ce78b468d724c301c855010f"
+    },
+    "email": null,
+    "root": "C:/Users/wwwle/Documents/Materias_Universidad/Redes Neuronales/Proyecto-2_RNA",
+    "host": "DESKTOP-FR5VQNJ",
+    "username": "wwwle",
+    "executable": "C:\\Users\\wwwle\\Documents\\Materias_Universidad\\Redes Neuronales\\env\\Keras[3.9]\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1200.0,
+        "min": 0.0,
+        "max": 2401.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1200.0,
+            "min": 0.0,
+            "max": 2401.0
+        }
+    ],
+    "disk": {
+        "total": 941.1406211853027,
+        "used": 170.48390579223633
+    },
+    "memory": {
+        "total": 11.886932373046875
+    }
+}

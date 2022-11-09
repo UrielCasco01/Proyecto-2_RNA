@@ -1,0 +1,35 @@
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_setup.py:_flush():68] Configure stats pid to 3588
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_setup.py:_flush():68] Loading settings from C:\Users\wwwle\.config\wandb\settings
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_setup.py:_flush():68] Loading settings from C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\settings
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'Red Neuronal\\Red neuronal para reconocimiento facial - mod.py', 'program': 'C:\\Users\\wwwle\\Documents\\Materias_Universidad\\Redes Neuronales\\Proyecto-2_RNA\\Red Neuronal\\Red neuronal para reconocimiento facial - mod.py'}
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_init.py:_log_setup():476] Logging user logs to C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221107_223236-dus9pi88\logs\debug.log
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_init.py:_log_setup():477] Logging internal logs to C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221107_223236-dus9pi88\logs\debug-internal.log
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_init.py:init():516] calling init triggers
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_init.py:init():569] starting backend
+2022-11-07 22:32:36,996 INFO    MainThread:3588 [wandb_init.py:init():573] setting up manager
+2022-11-07 22:32:37,012 INFO    MainThread:3588 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn, using: spawn
+2022-11-07 22:32:37,028 INFO    MainThread:3588 [wandb_init.py:init():580] backend started and connected
+2022-11-07 22:32:37,043 INFO    MainThread:3588 [wandb_init.py:init():658] updated telemetry
+2022-11-07 22:32:37,221 INFO    MainThread:3588 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-07 22:32:37,730 INFO    MainThread:3588 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-07 22:32:38,141 INFO    MainThread:3588 [wandb_run.py:_on_init():2004] got version response 
+2022-11-07 22:32:38,141 INFO    MainThread:3588 [wandb_init.py:init():728] starting run threads in backend
+2022-11-07 22:32:38,821 INFO    MainThread:3588 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-07 22:32:38,821 INFO    MainThread:3588 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-07 22:32:38,821 INFO    MainThread:3588 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-07 22:32:38,821 INFO    MainThread:3588 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-07 22:32:38,821 INFO    MainThread:3588 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-07 22:32:38,836 INFO    MainThread:3588 [wandb_config.py:__setitem__():148] config set epochs = 30 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C66B05970>>
+2022-11-07 22:32:38,836 INFO    MainThread:3588 [wandb_run.py:_config_callback():1160] config_cb epochs 30 None
+2022-11-07 22:32:38,836 INFO    MainThread:3588 [wandb_config.py:__setitem__():148] config set batch_size = 120 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C66B05970>>
+2022-11-07 22:32:38,836 INFO    MainThread:3588 [wandb_run.py:_config_callback():1160] config_cb batch_size 120 None
+2022-11-07 22:32:38,836 INFO    MainThread:3588 [wandb_config.py:__setitem__():148] config set optimizer = rmsprop - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C66B05970>>
+2022-11-07 22:32:38,836 INFO    MainThread:3588 [wandb_run.py:_config_callback():1160] config_cb optimizer rmsprop None
+2022-11-07 22:32:38,836 INFO    MainThread:3588 [wandb_config.py:__setitem__():148] config set hight = 180 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C66B05970>>
+2022-11-07 22:32:38,836 INFO    MainThread:3588 [wandb_run.py:_config_callback():1160] config_cb hight 180 None
+2022-11-07 22:32:38,852 INFO    MainThread:3588 [wandb_config.py:__setitem__():148] config set width = 180 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x0000021C66B05970>>
+2022-11-07 22:32:38,852 INFO    MainThread:3588 [wandb_run.py:_config_callback():1160] config_cb width 180 None
+2022-11-07 22:32:50,540 WARNING MsgRouterThr:3588 [router.py:message_loop():77] message_loop has been closed

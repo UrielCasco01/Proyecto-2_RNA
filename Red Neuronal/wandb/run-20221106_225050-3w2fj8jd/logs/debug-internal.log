@@ -1,0 +1,177 @@
+2022-11-06 22:50:50,790 INFO    StreamThr :1008 [internal.py:wandb_internal():88] W&B internal server running at pid: 1008, started at: 2022-11-06 22:50:50.790420
+2022-11-06 22:50:50,790 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: status
+2022-11-06 22:50:50,806 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: status
+2022-11-06 22:50:50,806 DEBUG   SenderThread:1008 [sender.py:send():303] send: header
+2022-11-06 22:50:50,806 INFO    WriterThread:1008 [datastore.py:open_for_write():75] open: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\run-3w2fj8jd.wandb
+2022-11-06 22:50:50,936 DEBUG   SenderThread:1008 [sender.py:send():303] send: run
+2022-11-06 22:50:51,444 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: check_version
+2022-11-06 22:50:51,475 INFO    SenderThread:1008 [dir_watcher.py:__init__():216] watching files in: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files
+2022-11-06 22:50:51,475 INFO    SenderThread:1008 [sender.py:_start_run_threads():928] run started: 3w2fj8jd with start time 1667796650.774793
+2022-11-06 22:50:51,476 DEBUG   SenderThread:1008 [sender.py:send():303] send: summary
+2022-11-06 22:50:51,478 INFO    SenderThread:1008 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-06 22:50:51,479 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: check_version
+2022-11-06 22:50:51,800 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: run_start
+2022-11-06 22:50:51,832 DEBUG   HandlerThread:1008 [system_info.py:__init__():31] System info init
+2022-11-06 22:50:51,847 DEBUG   HandlerThread:1008 [system_info.py:__init__():46] System info init done
+2022-11-06 22:50:51,847 INFO    HandlerThread:1008 [system_monitor.py:start():150] Starting system monitor
+2022-11-06 22:50:51,847 INFO    SystemMonitor:1008 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-06 22:50:51,847 INFO    HandlerThread:1008 [system_monitor.py:probe():168] Collecting system info
+2022-11-06 22:50:51,847 INFO    SystemMonitor:1008 [interfaces.py:start():168] Started cpu
+2022-11-06 22:50:51,847 DEBUG   HandlerThread:1008 [system_info.py:probe():195] Probing system
+2022-11-06 22:50:51,847 INFO    SystemMonitor:1008 [interfaces.py:start():168] Started disk
+2022-11-06 22:50:51,847 INFO    SystemMonitor:1008 [interfaces.py:start():168] Started memory
+2022-11-06 22:50:51,863 INFO    SystemMonitor:1008 [interfaces.py:start():168] Started network
+2022-11-06 22:50:51,894 DEBUG   HandlerThread:1008 [system_info.py:_probe_git():180] Probing git
+2022-11-06 22:50:52,175 DEBUG   HandlerThread:1008 [system_info.py:_probe_git():188] Probing git done
+2022-11-06 22:50:52,175 DEBUG   HandlerThread:1008 [system_info.py:probe():241] Probing system done
+2022-11-06 22:50:52,175 DEBUG   HandlerThread:1008 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.13', 'heartbeatAt': '2022-11-07T04:50:51.847731', 'startedAt': '2022-11-07T04:50:50.743551', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\wwwle\\Documents\\Materias_Universidad\\Redes Neuronales\\Proyecto-2_RNA\\Red Neuronal\\Red neuronal para reconocimiento facial.py', 'codePath': 'Red Neuronal\\Red neuronal para reconocimiento facial.py', 'git': {'remote': 'https://github.com/UrielCasco01/Proyecto-2_RNA.git', 'commit': 'dc6e3dcdb526ff09ce78b468d724c301c855010f'}, 'email': None, 'root': 'C:/Users/wwwle/Documents/Materias_Universidad/Redes Neuronales/Proyecto-2_RNA', 'host': 'DESKTOP-FR5VQNJ', 'username': 'wwwle', 'executable': 'C:\\Users\\wwwle\\Documents\\Materias_Universidad\\Redes Neuronales\\env\\Keras[3.9]\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1200.0, 'min': 0.0, 'max': 2401.0}, 'cpu_freq_per_core': [{'current': 1200.0, 'min': 0.0, 'max': 2401.0}], 'disk': {'total': 941.1406211853027, 'used': 167.23167037963867}, 'memory': {'total': 11.886932373046875}}
+2022-11-06 22:50:52,175 INFO    HandlerThread:1008 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-06 22:50:52,175 INFO    HandlerThread:1008 [system_monitor.py:probe():181] Publishing system info
+2022-11-06 22:50:52,175 DEBUG   HandlerThread:1008 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-06 22:50:52,175 DEBUG   HandlerThread:1008 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-06 22:50:52,175 INFO    HandlerThread:1008 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-06 22:50:52,398 DEBUG   SenderThread:1008 [sender.py:send():303] send: files
+2022-11-06 22:50:52,398 INFO    SenderThread:1008 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-06 22:50:52,430 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-06 22:50:52,430 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: stop_status
+2022-11-06 22:50:52,476 INFO    Thread-17 :1008 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\wandb-summary.json
+2022-11-06 22:50:52,476 INFO    Thread-17 :1008 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\requirements.txt
+2022-11-06 22:50:52,476 INFO    Thread-17 :1008 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\wandb-metadata.json
+2022-11-06 22:50:52,664 DEBUG   SenderThread:1008 [sender.py:send():303] send: telemetry
+2022-11-06 22:50:52,664 DEBUG   SenderThread:1008 [sender.py:send():303] send: telemetry
+2022-11-06 22:50:52,664 DEBUG   SenderThread:1008 [sender.py:send():303] send: config
+2022-11-06 22:50:52,664 DEBUG   SenderThread:1008 [sender.py:send():303] send: config
+2022-11-06 22:50:52,664 DEBUG   SenderThread:1008 [sender.py:send():303] send: config
+2022-11-06 22:50:52,664 DEBUG   SenderThread:1008 [sender.py:send():303] send: config
+2022-11-06 22:50:52,664 DEBUG   SenderThread:1008 [sender.py:send():303] send: config
+2022-11-06 22:50:52,664 DEBUG   SenderThread:1008 [sender.py:send():303] send: config
+2022-11-06 22:50:52,836 DEBUG   SenderThread:1008 [sender.py:send():303] send: telemetry
+2022-11-06 22:50:52,851 DEBUG   SenderThread:1008 [sender.py:send():303] send: telemetry
+2022-11-06 22:50:52,851 DEBUG   SenderThread:1008 [sender.py:send():303] send: files
+2022-11-06 22:50:52,851 INFO    SenderThread:1008 [sender.py:_save_file():1171] saving file model-best.h5 with policy live
+2022-11-06 22:50:52,851 DEBUG   SenderThread:1008 [sender.py:send():303] send: telemetry
+2022-11-06 22:50:52,851 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-06 22:50:53,099 INFO    Thread-22 :1008 [upload_job.py:push():143] Uploaded file C:\Users\wwwle\AppData\Local\Temp\tmp_ksr2seawandb\2wcxh7ju-wandb-metadata.json
+2022-11-06 22:50:53,334 DEBUG   SenderThread:1008 [sender.py:send():303] send: exit
+2022-11-06 22:50:53,334 INFO    SenderThread:1008 [sender.py:send_exit():442] handling exit code: 1
+2022-11-06 22:50:53,334 INFO    SenderThread:1008 [sender.py:send_exit():444] handling runtime: 1
+2022-11-06 22:50:53,334 INFO    SenderThread:1008 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-06 22:50:53,334 INFO    SenderThread:1008 [sender.py:send_exit():450] send defer
+2022-11-06 22:50:53,334 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:53,334 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-06 22:50:53,334 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:53,334 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-06 22:50:53,334 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 1
+2022-11-06 22:50:53,334 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:53,349 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-06 22:50:53,349 INFO    HandlerThread:1008 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-06 22:50:53,349 DEBUG   SystemMonitor:1008 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-06 22:50:53,349 DEBUG   SystemMonitor:1008 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-06 22:50:53,349 DEBUG   SystemMonitor:1008 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-06 22:50:53,349 INFO    HandlerThread:1008 [interfaces.py:finish():173] Joined cpu
+2022-11-06 22:50:53,349 INFO    HandlerThread:1008 [interfaces.py:finish():173] Joined disk
+2022-11-06 22:50:53,349 INFO    HandlerThread:1008 [interfaces.py:finish():173] Joined memory
+2022-11-06 22:50:53,349 INFO    HandlerThread:1008 [interfaces.py:finish():173] Joined network
+2022-11-06 22:50:53,349 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:53,349 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-06 22:50:53,349 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 2
+2022-11-06 22:50:53,349 DEBUG   SenderThread:1008 [sender.py:send():303] send: stats
+2022-11-06 22:50:53,349 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:53,349 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-06 22:50:53,349 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:53,349 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-06 22:50:53,349 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 3
+2022-11-06 22:50:53,349 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:53,349 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-06 22:50:53,365 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:53,365 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-06 22:50:53,381 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 4
+2022-11-06 22:50:53,396 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:53,396 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-06 22:50:53,396 DEBUG   SenderThread:1008 [sender.py:send():303] send: summary
+2022-11-06 22:50:53,396 INFO    SenderThread:1008 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-06 22:50:53,396 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:53,396 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-06 22:50:53,396 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 5
+2022-11-06 22:50:53,396 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:53,396 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-06 22:50:53,396 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:53,396 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-06 22:50:53,490 INFO    Thread-17 :1008 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\wandb-summary.json
+2022-11-06 22:50:53,490 INFO    Thread-17 :1008 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\output.log
+2022-11-06 22:50:53,678 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 6
+2022-11-06 22:50:53,678 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:53,678 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-06 22:50:53,678 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:53,678 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-06 22:50:54,429 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-06 22:50:54,507 INFO    Thread-17 :1008 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\config.yaml
+2022-11-06 22:50:55,092 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 7
+2022-11-06 22:50:55,092 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: poll_exit
+2022-11-06 22:50:55,092 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:55,092 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 7
+2022-11-06 22:50:55,092 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:55,092 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-06 22:50:55,092 INFO    SenderThread:1008 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-06 22:50:55,440 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-06 22:50:55,518 INFO    SenderThread:1008 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\output.log
+2022-11-06 22:50:55,518 INFO    SenderThread:1008 [dir_watcher.py:finish():392] scan: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files
+2022-11-06 22:50:55,518 INFO    SenderThread:1008 [dir_watcher.py:finish():406] scan save: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\config.yaml config.yaml
+2022-11-06 22:50:55,518 INFO    SenderThread:1008 [dir_watcher.py:finish():406] scan save: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\output.log output.log
+2022-11-06 22:50:55,518 INFO    SenderThread:1008 [dir_watcher.py:finish():406] scan save: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\requirements.txt requirements.txt
+2022-11-06 22:50:55,534 INFO    SenderThread:1008 [dir_watcher.py:finish():406] scan save: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\wandb-metadata.json wandb-metadata.json
+2022-11-06 22:50:55,534 INFO    SenderThread:1008 [dir_watcher.py:finish():406] scan save: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\wandb-summary.json wandb-summary.json
+2022-11-06 22:50:55,549 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 8
+2022-11-06 22:50:55,549 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: poll_exit
+2022-11-06 22:50:55,565 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:55,565 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 8
+2022-11-06 22:50:55,565 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:55,565 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-06 22:50:55,565 INFO    SenderThread:1008 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-06 22:50:56,223 INFO    Thread-23 :1008 [upload_job.py:push():143] Uploaded file C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\config.yaml
+2022-11-06 22:50:56,254 INFO    Thread-26 :1008 [upload_job.py:push():143] Uploaded file C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\wandb-summary.json
+2022-11-06 22:50:56,254 INFO    Thread-25 :1008 [upload_job.py:push():143] Uploaded file C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\requirements.txt
+2022-11-06 22:50:56,254 INFO    Thread-24 :1008 [upload_job.py:push():143] Uploaded file C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\files\output.log
+2022-11-06 22:50:56,441 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-06 22:50:56,441 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: poll_exit
+2022-11-06 22:50:56,473 INFO    Thread-16 :1008 [sender.py:transition_state():463] send defer: 9
+2022-11-06 22:50:56,473 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:56,473 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 9
+2022-11-06 22:50:56,473 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:56,473 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-06 22:50:56,473 INFO    SenderThread:1008 [file_pusher.py:join():173] waiting for file pusher
+2022-11-06 22:50:56,473 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 10
+2022-11-06 22:50:56,473 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:56,473 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 10
+2022-11-06 22:50:56,473 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:56,473 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-06 22:50:56,803 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 11
+2022-11-06 22:50:56,803 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:56,803 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 11
+2022-11-06 22:50:56,803 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:56,803 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-06 22:50:56,803 INFO    SenderThread:1008 [sender.py:transition_state():463] send defer: 12
+2022-11-06 22:50:56,803 DEBUG   SenderThread:1008 [sender.py:send():303] send: final
+2022-11-06 22:50:56,803 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: defer
+2022-11-06 22:50:56,803 DEBUG   SenderThread:1008 [sender.py:send():303] send: footer
+2022-11-06 22:50:56,803 INFO    HandlerThread:1008 [handler.py:handle_request_defer():162] handle defer: 12
+2022-11-06 22:50:56,803 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: defer
+2022-11-06 22:50:56,803 INFO    SenderThread:1008 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-06 22:50:56,803 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-06 22:50:56,818 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: poll_exit
+2022-11-06 22:50:56,818 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-06 22:50:56,818 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: poll_exit
+2022-11-06 22:50:56,818 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: server_info
+2022-11-06 22:50:56,818 DEBUG   SenderThread:1008 [sender.py:send_request():317] send_request: server_info
+2022-11-06 22:50:56,818 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-06 22:50:56,818 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: sampled_history
+2022-11-06 22:50:57,256 INFO    MainThread:1008 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-06 22:50:57,256 INFO    MainThread:1008 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-06 22:50:57,256 INFO    MainThread:1008 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-06 22:50:57,271 DEBUG   HandlerThread:1008 [handler.py:handle_request():139] handle_request: shutdown
+2022-11-06 22:50:57,271 INFO    HandlerThread:1008 [handler.py:finish():814] shutting down handler
+2022-11-06 22:50:57,818 INFO    WriterThread:1008 [datastore.py:close():279] close: C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\wandb\run-20221106_225050-3w2fj8jd\run-3w2fj8jd.wandb
+2022-11-06 22:50:58,276 INFO    SenderThread:1008 [sender.py:finish():1331] shutting down sender
+2022-11-06 22:50:58,276 INFO    SenderThread:1008 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-06 22:50:58,276 INFO    SenderThread:1008 [file_pusher.py:join():173] waiting for file pusher
+2022-11-06 22:50:58,354 INFO    MainThread:1008 [internal.py:handle_exit():78] Internal process exited

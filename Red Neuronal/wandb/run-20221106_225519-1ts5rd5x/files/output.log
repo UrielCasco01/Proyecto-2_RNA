@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\Red neuronal para reconocimiento facial.py", line 67, in <module>
+    model.add(MaxPooling2D(pool_size=(2,2)))
+  File "C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\env\Keras[3.9]\lib\site-packages\tensorflow\python\trackable\base.py", line 205, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\env\Keras[3.9]\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\env\Keras[3.9]\lib\site-packages\keras\engine\input_spec.py", line 232, in assert_input_compatibility
+    raise ValueError(
+ValueError: Input 0 of layer "max_pooling2d" is incompatible with the layer: expected ndim=4, found ndim=5. Full shape received: (None, None, 178, 178, 40)

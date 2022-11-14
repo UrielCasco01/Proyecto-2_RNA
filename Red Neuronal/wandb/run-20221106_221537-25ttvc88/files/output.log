@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\Red neuronal para reconocimiento facial.py", line 66, in <module>
-    train = imagen_etiquetada.flow_from_directory(imagen_etiquetada,
-AttributeError: 'MapDataset' object has no attribute 'flow_from_directory'

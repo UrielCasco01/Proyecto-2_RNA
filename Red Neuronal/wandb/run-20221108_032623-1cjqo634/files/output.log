@@ -1,9 +1,0 @@
-[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
-Traceback (most recent call last):
-  File "C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\Proyecto-2_RNA\Red Neuronal\Red neuronal para reconocimiento facial - mod.py", line 109, in <module>
-    history= model.fit(train,
-  File "C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\env\Keras[3.9]\lib\site-packages\wandb\integration\keras\keras.py", line 171, in new_v2
-    if val_data:
-  File "C:\Users\wwwle\Documents\Materias_Universidad\Redes Neuronales\env\Keras[3.9]\lib\site-packages\pandas\core\generic.py", line 1527, in __nonzero__
-    raise ValueError(
-ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().

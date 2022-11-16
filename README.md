@@ -30,4 +30,9 @@ De esta forma, al ya tener los datos cargados y los parámetros de la red bien d
 
 ![Estructura red 1](https://user-images.githubusercontent.com/106125995/201549083-38de733e-57cc-4e95-a4ef-7905264075cf.jpg)
 
-Se utilizó una función de costo **"binary_crossentropy"** con un optimizador **"rmsprop"** y como metrica se utilizó una métrica **"binary_accuracy"** debido a que al utilizar la métrica "accuracy" los resultados del entrenamiento resutaban muy malos.
+Se utilizó una función de costo **"binary_crossentropy"** con un optimizador **"rmsprop"** y como metrica se utilizó una métrica **"binary_accuracy"** debido a que al utilizar la métrica "accuracy" los resultados del entrenamiento resutaban muy malos. A continuación se muestra el resutado del mejor entrenamiento.
+
+![primer entrenamiento red de atributos](https://user-images.githubusercontent.com/106125995/202069859-9b830d90-e420-4948-9927-b050006d4b39.jpg)
+
+Entrenada la red neuronal de identifiación de atributos se comenzó con la implementación de la red neuronal para reconociiento facial.
+

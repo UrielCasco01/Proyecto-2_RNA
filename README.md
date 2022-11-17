@@ -32,7 +32,46 @@ De esta forma, al ya tener los datos cargados y los parámetros de la red bien d
 
 Se utilizó una función de costo **"binary_crossentropy"** con un optimizador **"rmsprop"** y como metrica se utilizó una métrica **"binary_accuracy"** debido a que al utilizar la métrica "accuracy" los resultados del entrenamiento resutaban muy malos. A continuación se muestra el resutado del mejor entrenamiento.
 
-![primer entrenamiento red de atributos](https://user-images.githubusercontent.com/106125995/202069859-9b830d90-e420-4948-9927-b050006d4b39.jpg)
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/106125995/202069859-9b830d90-e420-4948-9927-b050006d4b39.jpg">
+</p>
 
-Entrenada la red neuronal de identifiación de atributos se comenzó con la implementación de la red neuronal para reconociiento facial.
+
+Entrenada la red neuronal de identifiación de atributos se comenzó con la implementación de la red neuronal para reconocimiento facial.
+
+Antes de haber implementado la red neuronal para reconocimiento facial, se construyó la base de datos que la red utilizaría para reaizar el entrenamiento, esta base de datos consistió de fotos de mi rostro y fotos de otros rostros. Al tener listas las fotos, que para este caso fueron ocupadas 1000 fotos en total, las cuales fueron divididas en los datos de prueba y de entrenamiento, siendo estos últimos el 70% del tota de las fotos, resultando el 30% restante los datos de prueba. 
+Cada tipo de foto (fotos de mi rostro y fotos de otros rostros) fue guardado en una carpeta distinta, como se muestra a continuación.
+
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/106125995/202520474-19cd24d2-4656-47ac-b4a2-c0583341ea84.jpg">
+</p>
+
+Al tener lista la base de datos a ocupar se implementó el siguiente código, en el cual se cargó el modelo entrenado para la detección de atributos, se añadió una útima capa que consistía de una sola neurona, además, se añadió una función de activación sigmoide, se congelaron las primeras nueve capas del modelo preentrenado, se estableció una función de costo "Binary_CrossEntropy", con un optimizador "Adam" y una métrica de "binary_accuracy", esto ultimo porque con la mética "acuracy" el entrenamiento arrojaba malos resultados. A continuación se muestra el resultado de uno de los entrenamientos de la red neuronal y la estructura del código.
+Se muestran las librerías utilizadas y los parámetros de la red:
+
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/106125995/202524091-3365c027-0642-4157-a153-afe3595aa0d0.jpg">
+  <img  src="https://user-images.githubusercontent.com/106125995/202524218-ed5c5512-aadb-42ed-9c5e-739a1bd6024f.jpg">                                                                                                       
+</p>
+
+
+Se realiza la carga de datos y la manipulación de estos para ser compatibles con el formato de los datos de entrada requeridos por la red:
+
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/106125995/202524784-dc2d3aba-3135-4c10-bad5-1f8224530477.jpg">
+</p>
+
+Se muestra la estructura de la red para reconocimiento facial:
+
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/106125995/202525282-a95a0513-3265-4db6-9b25-0d6ecacacefa.jpg">
+</p>
+
+
+Finalmente, se entrenó la red, estableciendo 50 épocas de entrenamiento, esto debido a que con 20 y 30 épocas, aunque el resultado de cada entrenamiento no era malo, este no uperaba una precisión del 70%. A continuación se muestran los resultados del entrenamiento de la red con 50 épocas.
+
+<p align="center">
+  <img  src="https://user-images.githubusercontent.com/106125995/202525838-0e92ad0e-1d39-4ef8-957a-0ca47696a2df.jpg">
+</p>
+
 
